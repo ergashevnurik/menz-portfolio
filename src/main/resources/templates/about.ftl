@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>MENZ PORTFOLIO</title>
-	<!-- Main Css Link Goes Here -->
-	<link rel="stylesheet" href="../static/css/style.css">
-	<!-- Main Css Link Ends Here --> 
+<#import  "parts/common.ftl" as c>
 
-	<!-- Meta Tags Goes Here -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Meta Tags Ends Here -->
-</head>
-<body>
-
-	<main>
-
-
+<@c.page>
 		<!-- Navbar Container Goes Here -->
 		<section id="navbar-section">
 			<div class="navbar-container">
@@ -107,14 +92,4 @@
 			</div>	
 		</section>	
 		<!-- Main About US Section Ends here -->
-
-
-	</main>
-
-	<!-- Hamburger NavigationBar Effect JS Goes Here -->
-	<script type="text/javascript" src="../static/js/navigationBar-effect-js.js"></script>
-	<!-- Hamburger NavigationBar Effect JS Goes Here -->
-
-
-</body>
-</html>
+</@c.page>

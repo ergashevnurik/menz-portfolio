@@ -28,6 +28,9 @@
 							<li>
 								<a href="contacts.html">Contacts <div class="line"></div></a>
 							</li>
+							<li>
+								<a href="/login">Only For Admin <div class="line"></div></a>
+							</li>
 						</ul>
 					</div>
 				</div>

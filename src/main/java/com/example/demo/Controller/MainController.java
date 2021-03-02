@@ -36,4 +36,9 @@ public class MainController {
     private String initViewOfLogin() {
         return "login";
     }
+
+    @GetMapping(value = {"/dashboard"})
+    private String initViewOfDashboard() {
+        return "dashboard";
+    }
 }

@@ -27,7 +27,7 @@
             left: 0;
             right: 0;
             z-index: 89;
-            background: white;
+            transition: all .3s ease-in-out;
         }
 
         nav .container {
@@ -458,6 +458,24 @@
 </script>
 <!-- Hamburger NavigationBar Effect JS Goes Here -->
 
+
+<!-- On Scroll The Navbar Background Color Gets JS Goes Here -->
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.querySelector('.navbar').style.background = "white";
+            document.querySelector('.navbar').style.boxShadow = "0 4px 4px rgba(0,0,0,0.3)";
+            document.querySelector('.navbar').style.padding = "5px";
+        } else {
+            document.querySelector('.navbar').style.background = "transparent";
+            document.querySelector('.navbar').style.boxShadow = "none";
+            document.querySelector('.navbar').style.padding = "0";
+        }
+    }
+</script>
+<!-- On Scroll The Navbar Background Color Gets JS Ends Here -->
 
 </body>
 </html>

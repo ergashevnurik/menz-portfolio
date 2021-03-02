@@ -38,7 +38,7 @@
 
 
 		<!-- Navbar Goes here -->
-		<nav>
+		<nav class="navbar">
 			<div class="container">
 				<div class="row">
 					<a href="">MENZ</a>

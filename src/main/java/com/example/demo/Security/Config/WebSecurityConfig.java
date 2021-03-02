@@ -29,9 +29,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //                    .loginPage("/login")
                     .permitAll()
                 .defaultSuccessUrl("/dashboard", true)
+                .failureForwardUrl("/")
                 .and()
                     .logout()
-                    .permitAll();
+                    .permitAll()
+                    .logoutSuccessUrl("/");
     }
 
     @Bean

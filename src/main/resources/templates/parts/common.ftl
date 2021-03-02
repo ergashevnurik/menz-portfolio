@@ -430,6 +430,48 @@
             align-items: center;
         }
         /*Portfolio Section Styling Ends Here*/
+
+
+        /* Services Section Styling Goes Here */
+        #services {
+            width: 100%;
+            position: relative;
+            top: 80px;
+        }
+
+        #services .container {
+            width: 1200px;
+            margin: auto;
+
+        }
+
+        @media screen and (max-width: 1200px) {
+            #services .container {
+                width: 100%;
+            }
+            #services .container .row .col {
+                width: 100%;
+            }
+        }
+
+        #services .container .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+
+        }
+
+        #services .container .row .col {
+            width: 550px;
+        }
+
+        #services .container .row .col img {
+            width: 100%;
+            height: 100%;
+        }
+        /* Services Section Styling Ends Here */
     </style>
 <body>
 

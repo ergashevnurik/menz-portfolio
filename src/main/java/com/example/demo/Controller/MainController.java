@@ -31,4 +31,9 @@ public class MainController {
     private String initViewOfContacts() {
         return "contacts";
     }
+
+    @GetMapping(value = {"/login"})
+    private String initViewOfLogin() {
+        return "login";
+    }
 }
